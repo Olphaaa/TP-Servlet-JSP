@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [23/Jan/2022:12:06:07 +0100] "GET / HTTP/1.1" 404 - http-bio-8080-exec-1 0
+127.0.0.1 - - [23/Jan/2022:12:06:14 +0100] "GET /manager/text/undeploy?path=%2FTP2 HTTP/1.1" 404 - http-bio-8080-exec-3 0
+127.0.0.1 - - [23/Jan/2022:12:06:31 +0100] "PUT /manager/text/deploy?path=%2FTP2 HTTP/1.1" 404 - http-bio-8080-exec-5 0
+0:0:0:0:0:0:0:1 - - [23/Jan/2022:12:24:45 +0100] "GET /TP2 HTTP/1.1" 404 - http-bio-8080-exec-1 0
+127.0.0.1 - - [23/Jan/2022:12:24:54 +0100] "PUT /manager/text/deploy?path=%2FTP2 HTTP/1.1" 404 - http-bio-8080-exec-3 0
+127.0.0.1 - - [23/Jan/2022:12:25:44 +0100] "PUT /manager/text/deploy?path=%2FTP2 HTTP/1.1" 404 - http-bio-8080-exec-5 0
+127.0.0.1 - - [23/Jan/2022:12:25:48 +0100] "PUT /manager/text/deploy?path=%2FTP2 HTTP/1.1" 404 - http-bio-8080-exec-7 0
